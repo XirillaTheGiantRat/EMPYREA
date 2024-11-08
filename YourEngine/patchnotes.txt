@@ -1,0 +1,4 @@
+21-11-2023:
+Removed recursion in GameObject.cs for Enter() and Exit().
+The first was a bug (multiple calls), whilst the latter
+is a simplified design choice (thanks Rayen Debi).
